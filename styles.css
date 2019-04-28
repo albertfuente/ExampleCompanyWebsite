@@ -1,0 +1,66 @@
+body{
+  background: url(https://images.pexels.com/photos/733475/pexels-photo-733475.jpeg?cs=srgb&dl=astronomy-cosmos-dark-733475.jpg&fm=jpg)no-repeat center center;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+img{
+  height: 20px;
+  width: 20px;
+}
+.navbar-light{
+  background-color: black;
+}
+
+li{
+  color: white;
+  font-size: 19px;
+  margin-right: 35px;
+  padding: 10px 0;
+}
+li:hover{
+  color: blue;
+  border-bottom: 1px solid red;
+}
+.jumbotron{
+  color: white;
+  text-align: center;
+  margin: 100px;
+  letter-spacing: 2.5px;
+  padding: 10px;
+
+}
+.icon{
+  color: white;
+
+}
+.body-image{
+  height: 40px;
+  width: 40px;
+  text-align: center;
+}
+.col-md-4{
+  text-align: center;
+  font-size: 20px;
+}
+.contact{
+  text-align: center;
+  margin: 30px;
+  color: white;
+}
+.btn:hover{
+  background-color: red;
+}
+.footer{
+  background-color: rgba(0,0,0,0.5);
+  color: grey;
+  font-size: 15px;
+  padding: 10px 0px;
+}
+@media(max-width:768px){
+  .body-image{
+    height: 80px;
+    width: 80px;
+    text-align: center;
+  }
+}
